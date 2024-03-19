@@ -7,7 +7,7 @@ var client = new W3CWebSocket('ws://localhost:80/'); //U can change localhost(12
 
 
 //config 
-wing = 0;   //set wing 0(core fader + b-wing 1), 1(f-wing 1 + b-wing 1), 2(f-wing 2 + b-wing 2),
+wing = 1;   //set wing 0(core fader + b-wing 1), 1(f-wing 1 + b-wing 1), 2(f-wing 2 + b-wing 2),
 pageselect = 1;   //set page select mode - 0 - off, 1 - only exec buttons, 2 - exec buttons and faders together
 midi_in = 'APC mini mk2';     //set correct midi in device name
 midi_out = 'APC mini mk2';    //set correct midi out device name
